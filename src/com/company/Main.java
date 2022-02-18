@@ -8,23 +8,23 @@ public class Main {
         Scanner sx1 = new Scanner(System.in);
         Scanner sy1 = new Scanner(System.in);
         Scanner sz1 = new Scanner(System.in);
-        int x1 = sx1.nextInt();
-        int y1 = sy1.nextInt();
-        int z1 = sz1.nextInt();
+        double x1 = sx1.nextDouble();
+        double y1 = sy1.nextDouble();
+        double z1 = sz1.nextDouble();
 
         Scanner sx2 = new Scanner(System.in);
         Scanner sy2 = new Scanner(System.in);
         Scanner sz2 = new Scanner(System.in);
-        int x2 = sx2.nextInt();
-        int y2 = sy2.nextInt();
-        int z2 = sz2.nextInt();
+        double x2 = sx2.nextDouble();
+        double y2 = sy2.nextDouble();
+        double z2 = sz2.nextDouble();
 
         Scanner sx3 = new Scanner(System.in);
         Scanner sy3 = new Scanner(System.in);
         Scanner sz3 = new Scanner(System.in);
-        int x3 = sx3.nextInt();
-        int y3 = sy3.nextInt();
-        int z3 = sz3.nextInt();
+        double x3 = sx3.nextDouble();
+        double y3 = sy3.nextDouble();
+        double z3 = sz3.nextDouble();
 
         //Initialization of points
         Point3d point1 = new Point3d(x1, y1, z1);
